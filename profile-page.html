@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Netflix - Home Page</title>
+    <link rel="stylesheet" href="./custom/custom-bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
+  </head>
+  <body class="bg-dark m-0 m-md-3 mx-lg-5">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark px-3 z-3">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="https://www.netflix.com/browse">
+            <img src="./assets/netflix_logo.png" alt="Netflix" width="100" />
+          </a>
+
+          <a
+            href="./home.html"
+            class="text-secondary m-2 p-0 text-decoration-none"
+            >Home</a
+          >
+        </div>
+
+        <div class="d-flex align-items-center justify-content-end ms-auto">
+          <a href="#"><i class="bi bi-bell text-white fs-3 m-3"></i></a>
+          <a href="./profile-page.html"
+            ><img
+              src="./assets/kids_icon.png"
+              alt="user"
+              width="40"
+              class="mx-3"
+          /></a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="d-flex justify-content-center">
+      <div class="d-inline-flex flex-column align-content-center">
+        <h1 class="text-white display-1 fw-semibold">Edit Profile</h1>
+        <div class="d-flex border-bottom border-bottom-2 pb-5">
+          <img
+            src="https://placecats.com/200/200"
+            alt="fotoprofilo"
+            class="rounded-1"
+          />
+          <div class="d-flex flex-column justify-content-between mx-3">
+            <p
+              class="bg-secondary text-dark border border-secondary border-2 border-light py-2 px-3 fs-5"
+            >
+              Strive Student
+            </p>
+            <div>
+              <p class="text-white fs-5">Language:</p>
+
+              <select
+                class="form-select rounded-0 text-secondary bg-dark border"
+                id="languageSelect"
+              >
+                <option selected>English</option>
+                <option value="1">Italiano</option>
+                <option value="2">Français</option>
+                <option value="3">Deutsch</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column border-bottom border-bottom-2 border-light py-5"
+        >
+          <p class="text-white fs-5 fw-semibold">Maturity Settings:</p>
+          <button
+            class="bg-secondary text-dark border border-secondary border-2 px-3 py-2 fs7 w-60 fw-bold mb-2"
+          >
+            ALL MATURITY RATINGS
+          </button>
+          <p class="text-white">
+            Show titles of all maturity ratings for this profile.
+          </p>
+          <button
+            class="text-secondary border boder-2 border-white bg-dark fw-semibold w-25 p-1"
+          >
+            EDIT
+          </button>
+        </div>
+        <div
+          class="d-flex flex-column border-bottom border-bottom-2 border-light py-5"
+        >
+          <p class="text-white fs-5 fw-semibold">Autoplay controls</p>
+          <div class="form-check">
+            <input
+              class="form-check-input rounded-0 bg-dark border border-2 border-secondary p-2"
+              type="checkbox"
+              id="autoplayNext"
+              checked
+            />
+            <p class="text-secondary mx-3">
+              Autoplay next episode in a series on all devices.
+            </p>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input rounded-0 bg-dark border border-2 border-secondary p-2"
+              type="checkbox"
+              id="autoplayNext"
+              checked
+            />
+            <p class="text-secondary mx-3">
+              Autoplay next episode in a series on all devices.
+            </p>
+          </div>
+        </div>
+        <div class="d-flex-inline mt-4">
+          <button
+            class="fw-semibold py-2 px-4 text-dark border border-2 border-secondary bg-secondary"
+          >
+            SAVE
+          </button>
+          <button
+            class="fw-semibold py-2 px-4 bg-dark border border-2 border-secondary text-secondary mx-3"
+          >
+            CANCEL
+          </button>
+          <button
+            class="fw-semibold py-2 px-4 bg-dark border border-2 border-secondary text-secondary"
+          >
+            DELETE PROFILE
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer class="text-secondary p-3 row-cols-md-2">
+      <div class="pb-4">
+        <a
+          href="https://www.facebook.com/"
+          class="text-decoration-none text-secondary"
+          ><i class="bi bi-facebook fs-3 m-2"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/"
+          class="text-decoration-none text-secondary"
+          ><i class="bi bi-instagram fs-3 m-2"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/"
+          class="text-decoration-none text-secondary"
+          ><i class="bi bi-youtube fs-3 m-2"></i
+        ></a>
+        <a href="https://x.com/" class="text-decoration-none text-secondary"
+          ><i class="bi bi-twitter-x fs-3 m-2"></i>o<i
+            class="bi bi-twitter fs-3 m-2"
+          ></i
+          >?</a
+        >
+      </div>
+      <div class="row row-cols-md-3 row-cols-2">
+        <p class="fs-10">Audio e Subtitles</p>
+        <p class="fs-10">Media Center</p>
+        <p class="fs-10">Privacy</p>
+        <p class="fs-10">Contact Us</p>
+        <p class="fs-10">Audio Description</p>
+        <p class="fs-10">Investor Relations</p>
+        <p class="fs-10">Legal Notices</p>
+        <p class="fs-10">Helpe Center</p>
+        <p class="fs-10">Jobs</p>
+        <p class="fs-10">Cookie Preferencies</p>
+        <p class="fs-10">Gift Card</p>
+        <p class="fs-10">Terms of Use</p>
+        <p class="fs-10">Corporate Informations</p>
+      </div>
+      <button
+        class="btn btn-dark border-secondary text-secondary rounded-0 w-auto px-4 my-3"
+      >
+        Service Code
+      </button>
+      <p>&copy;1997-2019 Netflix, Inc. {i-dfsjvbdsak}</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
